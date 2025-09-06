@@ -973,7 +973,7 @@ wheels = [
 
 [[package]]
 name = "wilderness"
-source = { editable = "." }
+source = { virtual = "." }
 dependencies = [
     { name = "pandas", version = "2.0.3", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.9'" },
     { name = "pandas", version = "2.3.2", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.9'" },
